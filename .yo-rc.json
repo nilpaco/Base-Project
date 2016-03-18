@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "project",
+    "packageName": "com.project",
+    "packageFolder": "com/project",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "5b8030fc9c17e89ebaec66d2fa81036f89b47dc5",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
