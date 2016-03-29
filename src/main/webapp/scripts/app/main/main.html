@@ -2,12 +2,12 @@
     <div class="row">
         <!-- add toaster -->
         <div class="col-lg-6" id="col-left">
-            <div class="container">
-                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    Link with href
+            <div class="padding">
+                <a class="paper-item-link" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <paper-button class="fancy" raised><iron-icon icon="icons:filter-list"></iron-icon> Filters</paper-button>
                 </a>
                 <div class="collapse" id="collapseExample">
-                    <div class="col-lg-6 well">
+                    <div class="well" style="width: 100%">
                         ...
                     </div>
                 </div>
@@ -94,7 +94,13 @@
                     /*paper-fab{
                         background: #5677fc !important;
                     }*/
-
+                    paper-button.fancy{
+                        background: #E91E63;
+                        color: white;
+                    }
+                    .padding{
+                        padding: 15px;
+                    }
                 </style>
                 <div class="text-center">
                     <uib-pagination class="pagination-sm" total-items="totalItems" ng-model="page" ng-change="loadAll()"></uib-pagination>
